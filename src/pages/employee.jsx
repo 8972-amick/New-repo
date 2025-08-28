@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { FaPlus } from "react-icons/fa";
-import SearchSelect from "../componenets/employees/selectSearch";
+// import SearchSelect from "../componenets/employees/selectSearch";
 import EmployeeCard from "../componenets/employees/employeeCard";
 import EmployeeForm from "../componenets/employees/employeeform";
 import Button from "../componenets/employees/buttons";
@@ -65,7 +65,7 @@ export default function Employee() {
         </Button>
       </div>
 
-      <SearchSelect />
+      {/* <SearchSelect /> */}
       <EmployeeCard
         employees={employees}
         setEditEmployee={setEditEmployee}
